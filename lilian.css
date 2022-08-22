@@ -6,7 +6,7 @@ body{
 
 
 .profile {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 18px 0 rgba(187, 104, 104, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -48,12 +48,15 @@ body{
     font-size: 22px;
     color: white;
   }
+ button a{
+  color: white;
+  text-decoration: none;
+ }
+ button a:hover {
+    color: rgb(119, 7, 69);
+}
 
- button:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  .profile .address{
+ .profile .address{
     margin-bottom:3%;
   }
 
@@ -109,12 +112,12 @@ nav ul li a{
     }
 
     .nav ul li a:hover {
-        background-color:white;
+        background-color:rgb(119, 7, 69);
         font-weight: bolder;
         color: black;
         opacity: 0.9;
         
-        padding: 10px;
+        
       }
 
 .one{
@@ -164,6 +167,10 @@ nav ul li a{
   background-color:rgb(155, 16, 62) ;
   color: rgb(231, 200, 200);
 }
+#resume:hover{
+  background-color:white;
+  border: solid rgb(119, 7, 69);
+}
 
 .abby h1{
   font-size: 40px;
@@ -185,12 +192,34 @@ hr{
   margin-left: 5%;
   margin-top: -8%;
 }
+.abby #poems{
+  color: rgb(231, 200, 200);
+  font-size: 20px;
+  margin-left: 47%;
+  margin-top: 6%;
+}
+
+.abby #pieces{
+  color: rgb(231, 200, 200);
+  font-size: 18px;
+  margin-left: 47%;
+  margin-top: 5%;
+  
+}
+
+#pieces a{
+  text-decoration: none;
+  color: palevioletred;
+}
+
+.abby #pieces a:hover{
+color: white;
+}
 
 .three{
   margin-left: 30%;
+  margin-top: 15%;
   
-  margin-top: 30%;
-  background-color: white;
 }
 
 .title h1{
@@ -199,3 +228,273 @@ hr{
   margin-left: 15%;
 }
 
+.title hr{
+  margin-right: 4%;
+}
+
+.youthpad{
+  margin-left: 15%;
+  margin-top: -7%;
+}
+.youthpad h2{
+  color:rgb(231, 200, 200) ;
+}
+.youthpad img:hover{
+  background-color: black;
+}
+.web{
+  display: flex;
+  margin-top: 9%;
+}
+
+.abu{
+  margin-left: 3%;
+  margin-top: -7%;
+}
+
+.abu h2{
+  color:rgb(231, 200, 200) ;
+}
+
+.petnwork{
+  display: flex;
+  margin-top:-1%;
+}
+.wallet{
+  margin-left: 3%;
+}
+
+.wallet h2{
+  color:rgb(231, 200, 200) ;
+}
+
+.petclinic{
+  margin-left: 15%;
+}
+
+.petclinic h2{
+  color:rgb(231, 200, 200) ;
+}
+
+.mobile{
+  display: flex;
+}
+
+
+.fivestar{
+  margin-left: 3%;
+}
+
+.fivestar h2{
+  color:rgb(231, 200, 200) ;
+}
+
+.workout{
+  margin-left: 15%;
+}
+.workout h2{
+  color:rgb(231, 200, 200) ;
+}
+
+/* Parent Container */.youthpad{
+  position: relative;
+  float: left;
+  
+ }
+ 
+ /* Child Text Container */.youthpad div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.youthpad:hover{
+  cursor: pointer;
+ }
+ 
+ .youthpad:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ /* Parent Container */.abu{
+  position: relative;
+  float: left;
+  
+ }
+ 
+ /* Child Text Container */.abu div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.abu:hover{
+  cursor: pointer;
+ }
+ 
+ .abu:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ /* Parent Container */.petclinic{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.petclinic div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.petclinic:hover{
+  cursor: pointer;
+ }
+ 
+ .petclinic:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ /* Parent Container */.wallet{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.wallet div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.wallet:hover{
+  cursor: pointer;
+ }
+ 
+ .wallet:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ /* Parent Container */.workout{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.workout div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.workout:hover{
+  cursor: pointer;
+ }
+ 
+ .workout:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ /* Parent Container */.fivestar{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.fivestar div{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.fivestar:hover{
+  cursor: pointer;
+ }
+ 
+ .fivestar:hover div{
+  width: 270px;
+  height: 40px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 20%;
+ }
+
+ .footer{
+  background-color: white;
+ }
