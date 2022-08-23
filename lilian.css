@@ -238,7 +238,8 @@ color: white;
   margin-top: -7%;
 }
 .youthpad h2{
-  color:rgb(48, 45, 45) ;
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 .youthpad img:hover{
   background-color: black;
@@ -256,6 +257,7 @@ color: white;
 
 .abu h2{
   color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
 .petnwork{
@@ -268,6 +270,7 @@ color: white;
 
 .wallet h2{
   color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
 .petclinic{
@@ -276,6 +279,7 @@ color: white;
 
 .petclinic h2{
   color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
 .mobile{
@@ -289,6 +293,7 @@ color: white;
 
 .fivestar h2{
   color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
 .workout{
@@ -296,6 +301,7 @@ color: white;
 }
 .workout h2{
   color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
 /* Parent Container */.youthpad{
@@ -324,11 +330,12 @@ color: white;
  
  .youthpad:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
+  
  }
 
  /* Parent Container */.abu{
@@ -357,11 +364,11 @@ color: white;
  
  .abu:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
  }
 
  /* Parent Container */.petclinic{
@@ -390,11 +397,11 @@ color: white;
  
  .petclinic:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
  }
 
  /* Parent Container */.wallet{
@@ -423,11 +430,11 @@ color: white;
  
  .wallet:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
  }
 
  /* Parent Container */.workout{
@@ -456,11 +463,11 @@ color: white;
  
  .workout:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
  }
 
  /* Parent Container */.fivestar{
@@ -490,11 +497,11 @@ color: white;
  
  .fivestar:hover div{
   width: 270px;
-  height: 40px;
+  height: 50px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9; 
-  margin-bottom: 20%;
+  margin-bottom: 15%;
  }
 
  .footer{
@@ -553,13 +560,15 @@ color: white;
   
   font-size: 45px;
   margin-left: 17%;
-  color: rgb(231, 200, 200);
+  /* color: rgb(231, 200, 200); */
+  
  
  
 }
 
 .title2 h1{
   color: rgb(155, 16, 62) ;
+  
   font-size: 50px;
   margin-top: -5%;
   
